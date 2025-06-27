@@ -1,0 +1,6 @@
+{
+  "appId": "com.ruchita.habittracker",
+  "appName": "HABIT TRACKER",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
