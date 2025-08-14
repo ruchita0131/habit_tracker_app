@@ -44,9 +44,9 @@ Start the development server:
 
 npm start
 
-The application will now be running and accessible at http://localhost:3000.
+The application will now be running and accessible at https://habittrackerapp-eight.vercel.app/
 
-3. Future Improvements
+3.Future Improvements
 AI-Powered Suggestions: Integrate an AI model to suggest new habits based on user priorities.
 
 Data Visualization: Add charts and a calendar view to visualize habit streaks and completion rates over time.
