@@ -1,6 +1,9 @@
 Momentum - A Daily Habit & Goal Tracker
 Momentum is a clean and modern front-end application built with React.js. It's designed to help users organize their lives by setting weekly priorities and tracking the completion of their daily habits.
 
+App screenshot: https://github.com/ruchita0131/habit_tracker_app/blob/main/uihb.png
+
+
 1.Features:
 Weekly Priorities: A dedicated section to list and manage high-level goals for the week.
 
