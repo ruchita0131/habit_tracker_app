@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Momentum - A Daily Habit & Goal Tracker
+Momentum is a clean and modern front-end application built with React.js. It's designed to help users organize their lives by setting weekly priorities and tracking the completion of their daily habits.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.Features:
+Weekly Priorities: A dedicated section to list and manage high-level goals for the week.
 
-## Available Scripts
+Daily Habit Tracking: An interactive grid to add daily habits and check them off for each day of the week.
 
-In the project directory, you can run:
+Dynamic UI: Users can seamlessly add and delete both habits and priorities, with the interface updating in real-time.
 
-### `npm start`
+Persistent Storage: The application uses browser localStorage to save all user data, ensuring that habits and priorities are preserved between sessions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: A clean and intuitive layout that is optimized for both desktop and mobile use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.Tech Stack
+Front-End: React.js, JavaScript (ES6+), HTML5, CSS3
 
-### `npm test`
+State Management: React Hooks (useState, useEffect)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Storage: Browser LocalStorage API
 
-### `npm run build`
+Getting Started
+To get a local copy up and running, follow these simple steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prerequisites:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You must have Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation:
 
-### `npm run eject`
+Clone the repository to your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/ruchita0131/habit_tracker_app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navigate into the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd habit_tracker_app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install the required NPM packages:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+The application will now be running and accessible at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Future Improvements
+AI-Powered Suggestions: Integrate an AI model to suggest new habits based on user priorities.
 
-### Analyzing the Bundle Size
+Data Visualization: Add charts and a calendar view to visualize habit streaks and completion rates over time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Full-Stack Functionality: Implement a back-end with a database and user authentication to allow users to access their data from any device.
